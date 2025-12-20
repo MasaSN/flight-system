@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.integration_tests.IntegrationTestFULL
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.316 s <<< FAILURE! -- in tests.integration_tests.IntegrationTestFULL
-tests.integration_tests.IntegrationTestFULL.test2_SeatAvailability -- Time elapsed: 0.022 s <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.696 s <<< FAILURE! -- in tests.integration_tests.IntegrationTestFULL
+tests.integration_tests.IntegrationTestFULL.test2_SeatAvailability -- Time elapsed: 0.051 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Seat 1A should be available ==> expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)

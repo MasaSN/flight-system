@@ -61,7 +61,7 @@ public class IntegrationTestFULL {
     @Test
     public void test5_BookingHistory() {
         Customer customer = getTestCustomer();
-        customer.addBooking("12345" , "FL99" , "12A");
+        customer.addBooking("12345" , "FL99" , "1A");
         // Assuming viewBookingHistory prints to console or returns a result
         customer.viewBookingHistory(); 
         System.out.println("Step 7 & 8: History Updated");

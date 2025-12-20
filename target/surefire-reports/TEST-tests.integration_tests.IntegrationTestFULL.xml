@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.integration_tests.IntegrationTestFULL" time="0.316" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.integration_tests.IntegrationTestFULL" time="0.696" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\masar\AppData\Local\Temp\surefire4798278276359432205\surefirebooter-20251218131126214_3.jar C:\Users\masar\AppData\Local\Temp\surefire4798278276359432205 2025-12-18T13-11-25_660-jvmRun1 surefire-20251218131126214_1tmp surefire_0-20251218131126214_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\masar\AppData\Local\Temp\surefire12001077231720418690\surefirebooter-20251218205307316_3.jar C:\Users\masar\AppData\Local\Temp\surefire12001077231720418690 2025-12-18T20-53-04_516-jvmRun1 surefire-20251218205307316_1tmp surefire_0-20251218205307316_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="tests.integration_tests.IntegrationTestFULL"/>
     <property name="surefire.test.class.path" value="C:\Users\masar\OneDrive\Desktop\SWTest\flight-system\target\test-classes;C:\Users\masar\OneDrive\Desktop\SWTest\flight-system\target\classes;C:\Users\masar\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\masar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\masar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\masar\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\masar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\masar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\masar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\masar\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\masar\AppData\Local\Temp\surefire4798278276359432205\surefirebooter-20251218131126214_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\masar\AppData\Local\Temp\surefire12001077231720418690\surefirebooter-20251218205307316_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36-3646"/>
@@ -60,25 +60,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="test5_BookingHistory" classname="tests.integration_tests.IntegrationTestFULL" time="0.076">
+  <testcase name="test5_BookingHistory" classname="tests.integration_tests.IntegrationTestFULL" time="0.094">
     <system-out><![CDATA[SUCCESS: Customer registered successfully
-Booking added to customer history: Ticket: 12345, Flight: FL99, Seat: 12A
+Booking added to customer history: Ticket: 12345, Flight: FL99, Seat: 1A
 ----- BOOKING HISTORY for Masarrah -----
-Ticket: 12345, Flight: FL99, Seat: 12A
+Ticket: 12345, Flight: FL99, Seat: 1A
 Step 7 & 8: History Updated
 ]]></system-out>
   </testcase>
-  <testcase name="test3_PaymentAndNotification" classname="tests.integration_tests.IntegrationTestFULL" time="0.146">
+  <testcase name="test3_PaymentAndNotification" classname="tests.integration_tests.IntegrationTestFULL" time="0.417">
     <system-out><![CDATA[Payment of 12500.5 TRY processed successfully.
 Step 3 & 4: Payment and Notification Passed
 ]]></system-out>
   </testcase>
-  <testcase name="test1_CustomerRegistration" classname="tests.integration_tests.IntegrationTestFULL" time="0.003">
+  <testcase name="test1_CustomerRegistration" classname="tests.integration_tests.IntegrationTestFULL" time="0.005">
     <system-out><![CDATA[SUCCESS: Customer registered successfully
 Step 1: Registration Passed
 ]]></system-out>
   </testcase>
-  <testcase name="test2_SeatAvailability" classname="tests.integration_tests.IntegrationTestFULL" time="0.022">
+  <testcase name="test2_SeatAvailability" classname="tests.integration_tests.IntegrationTestFULL" time="0.051">
     <failure message="Seat 1A should be available ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Seat 1A should be available ==> expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -235,7 +235,7 @@ Step 1: Registration Passed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="test4_TicketConfirmationFlow" classname="tests.integration_tests.IntegrationTestFULL" time="0.015">
+  <testcase name="test4_TicketConfirmationFlow" classname="tests.integration_tests.IntegrationTestFULL" time="0.016">
     <system-out><![CDATA[Payment of 12500.5 TRY processed successfully.
 Seat not available
 Step 5: Ticket Confirmation Passed
